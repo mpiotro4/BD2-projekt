@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A378E85D-F36B-88C2-9F82-C001D3272A0D" name="Czynnosc">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-16 19:14:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera informacje o podjętej czynności oraz o czasie jej wykonania jeśli została zakończona]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -20,18 +21,20 @@
 <Attribute name="ID czynnosci" id="5F397777-93DC-FF14-D776-02BADB998F8A">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:28:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[Zawiera informacje o podjętej czynności oraz o czasie jej wykonania jeśli została zakończona]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Data rozpoczecia" id="9E074EC0-37AA-5FFC-5D2B-4588211C556E">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:21:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data rozpoczęcia wykonywania czynności]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -44,6 +47,7 @@
 <Attribute name="Data wykonania" id="3621542D-E677-8B24-2E9F-B6AA90483B55">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:18:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data zakończenia wykonywania czynnośći]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -57,6 +61,7 @@
 <Attribute name="Notatka" id="A62B8BAE-505F-E4D7-19CC-16F7C7DAA51D">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:16:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Notatka dotycząca wykonywanej czynności]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -77,7 +82,10 @@
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
 </engineerTo>
 <referedAttribute>D0208BE8-FBE5-CF04-B71D-9A207E04389E</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID kategorii" id="66168339-9644-9F75-6629-3B262AFBBF2D">
@@ -89,7 +97,10 @@
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
 </engineerTo>
 <referedAttribute>AA541FF2-6248-99A8-17F9-FE8C2A0BF39A</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID czynnosci1" id="F9CFA78C-48A1-DDD0-C79A-5E00BA8CEF14">
@@ -104,6 +115,8 @@
 <referedAttribute>5F397777-93DC-FF14-D776-02BADB998F8A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID pracownika" id="2A624414-0EDF-BFDA-4062-1F7FAD1B7532">
@@ -119,7 +132,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

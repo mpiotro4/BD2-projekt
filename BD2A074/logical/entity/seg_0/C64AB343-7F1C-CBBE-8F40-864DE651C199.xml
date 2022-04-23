@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64AB343-7F1C-CBBE-8F40-864DE651C199" name="Pracownik">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-16 19:15:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera dane wszystkich pracowników organizacji]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -20,7 +21,6 @@
 <Attribute name="ID pracownika" id="99649E72-D3D2-FAED-049B-88241630C7EC">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:13:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[Zawiera dane wszystkich pracowników organizacji]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -34,6 +34,7 @@
 <Attribute name="Imie" id="7551E750-3DDD-4051-DCFA-75D6C25CD4AB">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:30:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imię pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -47,6 +48,7 @@
 <Attribute name="Imie 2" id="EB0B3D9F-3E7C-7354-4199-9E703836DE20">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-19 20:34:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drugie imię pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -61,6 +63,7 @@
 <Attribute name="Nazwisko" id="873F929E-1F27-3560-1D58-48CEFEE5FC10">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:30:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwisko pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -74,6 +77,7 @@
 <Attribute name="Data urodzenia" id="DA9B3757-70C5-FD11-F47B-038473493A1E">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-19 20:34:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data urodzenia pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -86,6 +90,7 @@
 <Attribute name="PESEL" id="0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-22 18:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numer PESEL pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -100,6 +105,7 @@
 <Attribute name="email" id="8792E387-EABC-7135-6D32-77F2C90AB029">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-22 18:56:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Służbowy adres email pracownika]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>

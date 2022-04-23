@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="388F8DDD-EAF9-B541-D2F8-937F27424699" name="Modul">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-16 19:16:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera informacje o module który poddawany jest danej czynności]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -20,17 +21,20 @@
 <Attribute name="ID modulu" id="D0208BE8-FBE5-CF04-B71D-9A207E04389E">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:17:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Zawiera informacje o module który poddawany jest danej czynności]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nazwa" id="6877FB72-C611-26C2-8A80-AE6DC68916FC">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:16:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwa modułu poddawanego czynności]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
@@ -44,12 +48,15 @@
 <Attribute name="Data zatwierdzenia" id="156B5E8C-07D7-C80B-CFF2-1E3CED716FA1">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:22:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data zatwierdzenia tego że czynność wobec modułu została wykonana]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
 <item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID pracownika" id="2BCBFF9B-0476-AF7A-46E1-62522B11FA09">
@@ -66,7 +73,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
