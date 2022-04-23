@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A378E85D-F36B-88C2-9F82-C001D3272A0D" name="Czynnosc">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 19:14:03 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Czynnosci</preferredAbbreviation>
+<shortName>Czyn</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID czynnosci" id="5F397777-93DC-FF14-D776-02BADB998F8A">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:28:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera informacje o podjętej czynności oraz o czasie jej wykonania jeśli została zakończona]]></commentInRDBMS>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rozpoczecia" id="9E074EC0-37AA-5FFC-5D2B-4588211C556E">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:21:12 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data wykonania" id="3621542D-E677-8B24-2E9F-B6AA90483B55">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:18:21 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Notatka" id="A62B8BAE-505F-E4D7-19CC-16F7C7DAA51D">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:16:25 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID modulu" id="4FCC6764-6BF6-9603-1B40-80778E4298AC">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:17:24 UTC</createdTime>
+<generatorID>65B8A3BD-FF0D-69A4-7BCD-C19F708EBD21</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<referedAttribute>D0208BE8-FBE5-CF04-B71D-9A207E04389E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID kategorii" id="66168339-9644-9F75-6629-3B262AFBBF2D">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:31:05 UTC</createdTime>
+<generatorID>4BDD3E25-2087-6EB6-47C3-5AAD0E1EEBD4</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<referedAttribute>AA541FF2-6248-99A8-17F9-FE8C2A0BF39A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID czynnosci1" id="F9CFA78C-48A1-DDD0-C79A-5E00BA8CEF14">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-20 14:57:59 UTC</createdTime>
+<generatorID>D9F711CB-86CF-D9E1-D4A9-9AC1ED522120</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5F397777-93DC-FF14-D776-02BADB998F8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID pracownika" id="2A624414-0EDF-BFDA-4062-1F7FAD1B7532">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 19:30:35 UTC</createdTime>
+<generatorID>1409A5DF-B7D2-5B21-501A-506E853F0D1B</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<referedAttribute>99649E72-D3D2-FAED-049B-88241630C7EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81BD538D-A686-5743-5638-0177C4D4D3CE" name="Czynnosc PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:29:05 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F397777-93DC-FF14-D776-02BADB998F8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

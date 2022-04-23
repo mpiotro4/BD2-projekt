@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="9774379E-B98F-774C-783C-3C8B21194FD4">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 12:36:29 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

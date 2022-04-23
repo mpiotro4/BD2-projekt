@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64AB343-7F1C-CBBE-8F40-864DE651C199" name="Pracownik">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 19:15:32 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pracownicy</preferredAbbreviation>
+<shortName>Prac</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID pracownika" id="99649E72-D3D2-FAED-049B-88241630C7EC">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:13:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera dane wszystkich pracowników organizacji]]></commentInRDBMS>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="7551E750-3DDD-4051-DCFA-75D6C25CD4AB">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:30:16 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie 2" id="EB0B3D9F-3E7C-7354-4199-9E703836DE20">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-19 20:34:13 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="873F929E-1F27-3560-1D58-48CEFEE5FC10">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:30:11 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data urodzenia" id="DA9B3757-70C5-FD11-F47B-038473493A1E">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-19 20:34:25 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 18:57:35 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8792E387-EABC-7135-6D32-77F2C90AB029">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 18:56:56 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46C50FCF-2796-655D-28D8-2AE6FAA3CF7F" name="Pracownik PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:13:35 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99649E72-D3D2-FAED-049B-88241630C7EC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="73766AFE-A437-CC15-AF8D-E3F72F713EB6" name="PESEL">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 19:33:14 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<newElementsIDs>0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B</newElementsIDs>
+<usedAttributes>
+<attributeRef>0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="590F8CAB-2A6B-4A6D-77F0-F0F9A1C19244" name="UID">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 20:06:49 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<newElementsIDs>7551E750-3DDD-4051-DCFA-75D6C25CD4AB,EB0B3D9F-3E7C-7354-4199-9E703836DE20,873F929E-1F27-3560-1D58-48CEFEE5FC10,DA9B3757-70C5-FD11-F47B-038473493A1E</newElementsIDs>
+<usedAttributes>
+<attributeRef>7551E750-3DDD-4051-DCFA-75D6C25CD4AB</attributeRef>
+<attributeRef>EB0B3D9F-3E7C-7354-4199-9E703836DE20</attributeRef>
+<attributeRef>873F929E-1F27-3560-1D58-48CEFEE5FC10</attributeRef>
+<attributeRef>DA9B3757-70C5-FD11-F47B-038473493A1E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C4B189CF-E465-D48D-4207-FCFEAD69FC73" name="email">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 20:07:49 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<newElementsIDs>8792E387-EABC-7135-6D32-77F2C90AB029</newElementsIDs>
+<usedAttributes>
+<attributeRef>8792E387-EABC-7135-6D32-77F2C90AB029</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

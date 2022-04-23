@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="65B8A3BD-FF0D-69A4-7BCD-C19F708EBD21">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 19:26:16 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetPk>464ED71A-2D4E-1D17-292C-8A85292DFBE9</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Dotyczy</nameOnSource>
+<nameOnTarget>Poddaje sie</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A378E85D-F36B-88C2-9F82-C001D3272A0D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>388F8DDD-EAF9-B541-D2F8-937F27424699</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

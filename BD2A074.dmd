@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD2A074" id="CD3835E6-06A5-3FFC-A97E-30EB5DF743E3" version="3.5">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 12:36:29 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CD3835E6-06A5-3FFC-A97E-30EB5DF743E3</designId>
+</OSDM_Design>

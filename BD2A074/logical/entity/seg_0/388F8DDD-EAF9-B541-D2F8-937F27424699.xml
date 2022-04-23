@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="388F8DDD-EAF9-B541-D2F8-937F27424699" name="Modul">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 19:16:51 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Moduly</preferredAbbreviation>
+<shortName>Mod</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID modulu" id="D0208BE8-FBE5-CF04-B71D-9A207E04389E">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:17:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zawiera informacje o module który poddawany jest danej czynności]]></commentInRDBMS>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="6877FB72-C611-26C2-8A80-AE6DC68916FC">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:16:47 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data zatwierdzenia" id="156B5E8C-07D7-C80B-CFF2-1E3CED716FA1">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:22:05 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID pracownika" id="2BCBFF9B-0476-AF7A-46E1-62522B11FA09">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 19:30:35 UTC</createdTime>
+<generatorID>0CE71BED-8A57-55F2-EB92-C886E0A842D4</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>99649E72-D3D2-FAED-049B-88241630C7EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="464ED71A-2D4E-1D17-292C-8A85292DFBE9" name="Moduly PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:17:23 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0208BE8-FBE5-CF04-B71D-9A207E04389E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

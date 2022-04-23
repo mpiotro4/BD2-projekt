@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="123C28BE-7B8F-152E-5BB2-6D87CE077173" name="Kategoria">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 19:16:03 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Kategorie</preferredAbbreviation>
+<shortName>Kat</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID kategorii" id="AA541FF2-6248-99A8-17F9-FE8C2A0BF39A">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:29:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Spis wszystkich dostępnych kategorii czynności]]></commentInRDBMS>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="A2936CCD-A01B-D7CE-91BB-44E4611A82C5">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:15:38 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98F6E520-E6DD-0923-B424-4B9EF659BB41" name="Kategoria PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-17 17:31:04 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA541FF2-6248-99A8-17F9-FE8C2A0BF39A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A75279FA-E585-49A6-208B-AC1C59DBB24B" name="Nazwa">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-04-22 20:39:49 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<engineerTo>
+<item key="F5E3078B-2D8A-5C7C-C4F5-B5CB4CA9BD19" value="true"/>
+</engineerTo>
+<newElementsIDs>A2936CCD-A01B-D7CE-91BB-44E4611A82C5</newElementsIDs>
+<usedAttributes>
+<attributeRef>A2936CCD-A01B-D7CE-91BB-44E4611A82C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

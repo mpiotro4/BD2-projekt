@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5618BEFB-C426-DC7F-DA19-5CC683A6A383" mainViewID="1FD00FA1-A205-E73F-5DB1-C966F7F5BA41">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-03-16 12:36:29 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
