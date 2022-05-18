@@ -30,7 +30,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A378E85D-F36B-88C2-9F82-C001D3272A0D" otype="Entity" vid="908B85B2-6AF3-75E2-E390-D005308A8696">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="272" y="72" width="129" height="134"/>
+<bounds x="272" y="72" width="129" height="133"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-1</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
@@ -80,7 +80,7 @@ marcin.piotrowski9.stud@pw.edu.pl
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="365" y="223" width="127" height="11"/>
+<labelBounds x="365" y="222" width="127" height="11"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -91,7 +91,7 @@ marcin.piotrowski9.stud@pw.edu.pl
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="365" y="206"/>
+<point x="365" y="205"/>
 <point x="365" y="426"/>
 <point x="387" y="426"/>
 </points>
@@ -123,7 +123,7 @@ marcin.piotrowski9.stud@pw.edu.pl
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="305" y="256" width="52" height="28"/>
+<labelBounds x="305" y="255" width="52" height="28"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -134,7 +134,7 @@ marcin.piotrowski9.stud@pw.edu.pl
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="305" y="206"/>
+<point x="305" y="205"/>
 <point x="305" y="377"/>
 <point x="215" y="377"/>
 </points>
@@ -151,7 +151,7 @@ marcin.piotrowski9.stud@pw.edu.pl
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="440" y="155" width="72" height="30"/>
+<labelBounds x="440" y="155" width="70" height="31"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>

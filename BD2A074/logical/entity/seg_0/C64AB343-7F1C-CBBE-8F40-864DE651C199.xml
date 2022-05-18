@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Imie" id="7551E750-3DDD-4051-DCFA-75D6C25CD4AB">
 <createdBy>mpiot</createdBy>
@@ -42,8 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Imie 2" id="EB0B3D9F-3E7C-7354-4199-9E703836DE20">
 <createdBy>mpiot</createdBy>
@@ -57,8 +57,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nazwisko" id="873F929E-1F27-3560-1D58-48CEFEE5FC10">
 <createdBy>mpiot</createdBy>
@@ -71,8 +71,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64 CHAR</dataTypeSize>
-<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Data urodzenia" id="DA9B3757-70C5-FD11-F47B-038473493A1E">
 <createdBy>mpiot</createdBy>
@@ -113,8 +113,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -142,7 +142,7 @@
 <attributeRef>0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="590F8CAB-2A6B-4A6D-77F0-F0F9A1C19244" name="UID">
+<identifier id="590F8CAB-2A6B-4A6D-77F0-F0F9A1C19244" name="Dane osobowe">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-22 20:06:49 UTC</createdTime>
 <ownerDesignName>BD2A074</ownerDesignName>

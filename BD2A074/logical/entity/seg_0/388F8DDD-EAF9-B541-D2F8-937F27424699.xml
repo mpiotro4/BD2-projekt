@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1000</dataTypePrecision>
-<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nazwa" id="6877FB72-C611-26C2-8A80-AE6DC68916FC">
 <createdBy>mpiot</createdBy>
@@ -62,6 +62,7 @@
 <Attribute name="ID pracownika" id="2BCBFF9B-0476-AF7A-46E1-62522B11FA09">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-22 19:30:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID pracownika, który zatwierdza wykonanie czynności wobec modułu]]></commentInRDBMS>
 <generatorID>0CE71BED-8A57-55F2-EB92-C886E0A842D4</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
@@ -72,8 +73,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

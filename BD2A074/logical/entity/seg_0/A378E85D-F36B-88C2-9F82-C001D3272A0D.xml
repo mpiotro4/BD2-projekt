@@ -28,8 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Data rozpoczecia" id="9E074EC0-37AA-5FFC-5D2B-4588211C556E">
 <createdBy>mpiot</createdBy>
@@ -70,12 +70,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1024 CHAR</dataTypeSize>
-<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID modulu" id="4FCC6764-6BF6-9603-1B40-80778E4298AC">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:17:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID modułu wobec którego wykonywana jest czynność]]></commentInRDBMS>
 <generatorID>65B8A3BD-FF0D-69A4-7BCD-C19F708EBD21</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
@@ -85,12 +86,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1000</dataTypePrecision>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID kategorii" id="66168339-9644-9F75-6629-3B262AFBBF2D">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-17 17:31:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID kategori do której należy czynność]]></commentInRDBMS>
 <generatorID>4BDD3E25-2087-6EB6-47C3-5AAD0E1EEBD4</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
@@ -100,12 +102,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1000</dataTypePrecision>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID czynnosci1" id="F9CFA78C-48A1-DDD0-C79A-5E00BA8CEF14">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-03-20 14:57:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID czynności podrzędnej]]></commentInRDBMS>
 <generatorID>D9F711CB-86CF-D9E1-D4A9-9AC1ED522120</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
@@ -116,12 +119,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID pracownika" id="2A624414-0EDF-BFDA-4062-1F7FAD1B7532">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-04-22 19:30:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID pracownika który wykonuje czynność]]></commentInRDBMS>
 <generatorID>1409A5DF-B7D2-5B21-501A-506E853F0D1B</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <engineerTo>
@@ -131,8 +135,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
