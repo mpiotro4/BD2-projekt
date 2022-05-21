@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17A070FD-DF68-DADA-E0C1-2071BB343135" name="Moduly">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informacje o module który poddawany jest danej czynności]]></commentInRDBMS>
+<generatorID>388F8DDD-EAF9-B541-D2F8-937F27424699</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<abbreviation>Mod</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_modulu" id="8CD4F54B-9754-ADB6-29C1-EA0C0992CC84">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>D0208BE8-FBE5-CF04-B71D-9A207E04389E</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="FE2B257B-C597-3E7A-C23E-B179E74EC4CD">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwa modułu poddawanego czynności]]></commentInRDBMS>
+<generatorID>6877FB72-C611-26C2-8A80-AE6DC68916FC</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_pracownika" id="8204B468-240E-3FCB-4CDF-52F5660E6411">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID pracownika, który zatwierdza wykonanie czynności wobec modułu]]></commentInRDBMS>
+<generatorID>2BCBFF9B-0476-AF7A-46E1-62522B11FA09</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE70EF18-8D95-622F-913A-59F5FE85B4B5" referredColumn="7CBD5F04-A1A1-222F-59BC-8696AD2A7E1E"/>
+</associations>
+</Column>
+<Column name="Data_zatwierdzenia" id="8667B14F-D9A6-472D-1B4C-6CE33F0BFB0C">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data zatwierdzenia tego że czynność wobec modułu została wykonana]]></commentInRDBMS>
+<generatorID>156B5E8C-07D7-C80B-CFF2-1E3CED716FA1</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C6D7B8F-28A5-BC78-9719-654EB93AC496" name="MOD_PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>464ED71A-2D4E-1D17-292C-8A85292DFBE9</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD4F54B-9754-ADB6-29C1-EA0C0992CC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C4ACB70-FB52-EA5D-6E30-E25F1F7697E6" name="MOD_UK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 14:09:40 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2B257B-C597-3E7A-C23E-B179E74EC4CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B15508A4-A100-DA12-5E2E-7509904AB3CE" name="MOD_PRAC_FK_IDX">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 14:47:18 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8204B468-240E-3FCB-4CDF-52F5660E6411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D17A0705-8776-0CF3-123C-67B3A7062674" name="MOD_PRAC_FK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>0CE71BED-8A57-55F2-EB92-C886E0A842D4</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8204B468-240E-3FCB-4CDF-52F5660E6411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

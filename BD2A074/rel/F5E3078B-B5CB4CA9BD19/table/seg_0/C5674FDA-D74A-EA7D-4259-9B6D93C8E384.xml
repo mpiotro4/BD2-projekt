@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5674FDA-D74A-EA7D-4259-9B6D93C8E384" name="Kategorie">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Spis wszystkich dostępnych kategorii czynności]]></commentInRDBMS>
+<generatorID>123C28BE-7B8F-152E-5BB2-6D87CE077173</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<abbreviation>Kat</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_kategorii" id="D487D80A-8970-1582-BD12-5AA4F5D4F9BA">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>AA541FF2-6248-99A8-17F9-FE8C2A0BF39A</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="24EBC0EA-6B23-A435-C63C-14D51EDC7B89">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwa kategorii do której należy czynność]]></commentInRDBMS>
+<generatorID>A2936CCD-A01B-D7CE-91BB-44E4611A82C5</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19157872-F36F-158A-1F40-7434CDBA2793" name="KAT_PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>98F6E520-E6DD-0923-B424-4B9EF659BB41</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D487D80A-8970-1582-BD12-5AA4F5D4F9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F95CCF8B-26B0-3F12-6A30-298A23105F2A" name="KAT_UN">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>A75279FA-E585-49A6-208B-AC1C59DBB24B</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24EBC0EA-6B23-A435-C63C-14D51EDC7B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

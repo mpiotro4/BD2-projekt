@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2AAD96F0-6C08-CD3D-C9CE-249D0AD96ECB" containerWithKeyObject="B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8" localFKIndex="8B3F755A-CE95-2C82-66A9-7086C6E0F1A2" name="CZYN_PRAC_FK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>1409A5DF-B7D2-5B21-501A-506E853F0D1B</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<referredTableLongName>Pracownicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6522C01-4FFC-C70D-3C9B-5B84DAB0DF90</referredTableID>
+<keyObject>B9C69D1B-3B7C-63E1-FB55-F6ED8A20204C</keyObject>
+<referredKeyID>B9C69D1B-3B7C-63E1-FB55-F6ED8A20204C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_pracownika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6522C01-4FFC-C70D-3C9B-5B84DAB0DF90" name="Pracownicy">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dane wszystkich pracowników organizacji]]></commentInRDBMS>
+<generatorID>C64AB343-7F1C-CBBE-8F40-864DE651C199</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<abbreviation>Prac</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pracownika" id="7CBD5F04-A1A1-222F-59BC-8696AD2A7E1E">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>99649E72-D3D2-FAED-049B-88241630C7EC</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_urodzenia" id="78344568-9854-F882-26D0-30E752B65100">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data urodzenia pracownika]]></commentInRDBMS>
+<generatorID>DA9B3757-70C5-FD11-F47B-038473493A1E</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A68B7D3A-7694-609A-D52B-BBDECBA074AE">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Służbowy adres email pracownika]]></commentInRDBMS>
+<generatorID>8792E387-EABC-7135-6D32-77F2C90AB029</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="9DBE369D-359F-B967-EDB8-6464B4EE1F76">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nazwisko pracownika]]></commentInRDBMS>
+<generatorID>873F929E-1F27-3560-1D58-48CEFEE5FC10</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="FA0571D2-4663-9F8D-8548-D8CF8BB2DE24">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Imię pracownika]]></commentInRDBMS>
+<generatorID>7551E750-3DDD-4051-DCFA-75D6C25CD4AB</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie_2" id="A1D1DCA3-F5A9-FB24-1282-B8F151F878C4">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Drugie imię pracownika]]></commentInRDBMS>
+<generatorID>EB0B3D9F-3E7C-7354-4199-9E703836DE20</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="689D8DCB-63A4-9BB8-2703-9B05D1FF59E2">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numer PESEL pracownika]]></commentInRDBMS>
+<generatorID>0F91D3B8-D36B-A89B-901F-0FC9D5A6C25B</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9C69D1B-3B7C-63E1-FB55-F6ED8A20204C" name="PRAC_PK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>46C50FCF-2796-655D-28D8-2AE6FAA3CF7F</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CBD5F04-A1A1-222F-59BC-8696AD2A7E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF0515D0-53B8-7FBC-CD27-A37462C6E0A2" name="PRAC_PESEL_UK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>73766AFE-A437-CC15-AF8D-E3F72F713EB6</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689D8DCB-63A4-9BB8-2703-9B05D1FF59E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC9951E-83E3-E143-15DB-AA2B33FDB327" name="PRAC_UK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>590F8CAB-2A6B-4A6D-77F0-F0F9A1C19244</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA0571D2-4663-9F8D-8548-D8CF8BB2DE24"/>
+<colUsage columnID="A1D1DCA3-F5A9-FB24-1282-B8F151F878C4"/>
+<colUsage columnID="9DBE369D-359F-B967-EDB8-6464B4EE1F76"/>
+<colUsage columnID="78344568-9854-F882-26D0-30E752B65100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58F88DC4-E754-5153-3BE9-12D215EFD3CC" name="PRAC_EMAIL_UK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>C4B189CF-E465-D48D-4207-FCFEAD69FC73</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68B7D3A-7694-609A-D52B-BBDECBA074AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

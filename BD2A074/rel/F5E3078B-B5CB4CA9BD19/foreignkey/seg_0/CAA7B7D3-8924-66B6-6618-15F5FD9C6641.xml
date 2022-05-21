@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAA7B7D3-8924-66B6-6618-15F5FD9C6641" containerWithKeyObject="B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8" localFKIndex="D6DB3BD1-751F-EA3C-1029-176AF19E6729" name="CZYN_MOD_FK">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-20 14:43:03 UTC</createdTime>
+<generatorID>65B8A3BD-FF0D-69A4-7BCD-C19F708EBD21</generatorID>
+<ownerDesignName>BD2A074</ownerDesignName>
+<referredTableLongName>Moduly</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17A070FD-DF68-DADA-E0C1-2071BB343135</referredTableID>
+<keyObject>3C6D7B8F-28A5-BC78-9719-654EB93AC496</keyObject>
+<referredKeyID>3C6D7B8F-28A5-BC78-9719-654EB93AC496</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_modulu</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
