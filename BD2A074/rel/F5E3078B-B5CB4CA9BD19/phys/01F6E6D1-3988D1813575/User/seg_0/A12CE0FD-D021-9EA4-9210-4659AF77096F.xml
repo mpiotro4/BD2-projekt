@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BD2C074" directorySegmentName="seg_0" id="A12CE0FD-D021-9EA4-9210-4659AF77096F">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-24 18:16:19 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<identifier>05D1B612AD613F1B1712741BC31DD3E853</identifier>
+</UserOraclev10g>

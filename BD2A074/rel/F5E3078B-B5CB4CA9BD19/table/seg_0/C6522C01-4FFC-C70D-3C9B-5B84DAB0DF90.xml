@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6522C01-4FFC-C70D-3C9B-5B84DAB0DF90" name="Pracownicy">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Dane wszystkich pracowników organizacji]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Dane wszystkich pracownikow organizacji]]></commentInRDBMS>
 <generatorID>C64AB343-7F1C-CBBE-8F40-864DE651C199</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <abbreviation>Prac</abbreviation>
@@ -20,6 +20,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Data_urodzenia" id="78344568-9854-F882-26D0-30E752B65100">
@@ -37,7 +39,7 @@
 <Column name="email" id="A68B7D3A-7694-609A-D52B-BBDECBA074AE">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Służbowy adres email pracownika]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Sluzbowy adres email pracownika]]></commentInRDBMS>
 <generatorID>8792E387-EABC-7135-6D32-77F2C90AB029</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +65,7 @@
 <Column name="Imie" id="FA0571D2-4663-9F8D-8548-D8CF8BB2DE24">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Imię pracownika]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Imie pracownika]]></commentInRDBMS>
 <generatorID>7551E750-3DDD-4051-DCFA-75D6C25CD4AB</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +78,7 @@
 <Column name="Imie_2" id="A1D1DCA3-F5A9-FB24-1282-B8F151F878C4">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Drugie imię pracownika]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Drugie imie pracownika]]></commentInRDBMS>
 <generatorID>EB0B3D9F-3E7C-7354-4199-9E703836DE20</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>

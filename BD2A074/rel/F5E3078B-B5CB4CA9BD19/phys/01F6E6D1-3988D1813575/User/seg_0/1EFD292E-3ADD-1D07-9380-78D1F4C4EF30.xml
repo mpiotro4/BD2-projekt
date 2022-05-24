@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BD2C074_APP" directorySegmentName="seg_0" id="1EFD292E-3ADD-1D07-9380-78D1F4C4EF30">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:47:40 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<identifier>0565FF04E0CBD6D920B1ED9E166AFEFD3D</identifier>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="9E6DACAF-27F3-0196-0D76-B9C8CBB98103">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:49:41 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="24511EC3-7397-B124-DA7D-0873FE5ECDCD">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:49:59 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>C5674FDA-D74A-EA7D-4259-9B6D93C8E384</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="2A58BEEC-F8F2-7CD1-92C2-56C7DD3024BF">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:50:27 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>17A070FD-DF68-DADA-E0C1-2071BB343135</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="6F04606D-23CB-1DAC-044A-36F861819A8D">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:51:07 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>C6522C01-4FFC-C70D-3C9B-5B84DAB0DF90</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

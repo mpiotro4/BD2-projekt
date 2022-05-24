@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5674FDA-D74A-EA7D-4259-9B6D93C8E384" name="Kategorie">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Spis wszystkich dostępnych kategorii czynności]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Spis wszystkich dostepnych kategorii czynnosci]]></commentInRDBMS>
 <generatorID>123C28BE-7B8F-152E-5BB2-6D87CE077173</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <abbreviation>Kat</abbreviation>
@@ -20,12 +20,14 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nazwa" id="24EBC0EA-6B23-A435-C63C-14D51EDC7B89">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nazwa kategorii do której należy czynność]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nazwa kategorii do ktorej nalezy czynnosc]]></commentInRDBMS>
 <generatorID>A2936CCD-A01B-D7CE-91BB-44E4611A82C5</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

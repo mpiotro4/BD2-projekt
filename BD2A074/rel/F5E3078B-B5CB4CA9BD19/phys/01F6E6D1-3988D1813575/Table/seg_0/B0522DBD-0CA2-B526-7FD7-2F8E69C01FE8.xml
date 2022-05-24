@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Czynnosci" directorySegmentName="seg_0" id="B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_kategorii" id="330BF53E-7595-0367-9C61-D7BED5AC3BE0">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_pracownika" id="58D93789-B8FA-9FE4-C270-87BCB3F6C1E2">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_czynnosci" id="6088283D-9A07-A64B-423E-59303C2A6388">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_rozpoczecia" id="72780246-6B84-12A1-BB6C-B7D05EE9A09C">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_wykonania" id="7AC9D145-2502-A7DE-54A7-F227972570A5">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Notatka" id="95AA02E6-BACF-FACE-A4D5-DB12C34C4847">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_czyn_nadrz" id="9E0F2CFD-C6D6-1529-65DD-4EF9765ADCC8">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_modulu" id="BCDF62A2-BF3E-5462-DB6A-3B89BF45BE20">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CZYN_KAT_FK_IDX" id="4B76D579-A93E-AD94-27F8-FB80A4872CF1">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CZYN_PRAC_FK_IDX" id="51064E39-897E-5791-CE9A-7B964CD95227">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CZYN_CZYN_FK_IDX" id="99596CD9-9B76-D548-457C-A5395FDAC4A4">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CZYN_MOD_FK_IDX" id="E02ACBEC-2CE5-6696-8F9B-B9F4543FE278">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Czynnosci" id="372E9853-A066-6281-3900-45D3A7B5A55A">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-24 18:21:57 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<objectName>Czynnosci</objectName>
+<objectUser>A12CE0FD-D021-9EA4-9210-4659AF77096F</objectUser>
+<user>1EFD292E-3ADD-1D07-9380-78D1F4C4EF30</user>
+<referredObjectID>B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CZYN_CZYN_FK" id="01327152-0CE9-B934-50AD-B33614EFD3D7">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CZYN_PRAC_FK" id="8B3F755A-CE95-2C82-66A9-7086C6E0F1A2">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CZYN_KAT_FK" id="8D45A22B-31A5-63A6-CE46-40CE916A9300">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CZYN_MOD_FK" id="D6DB3BD1-751F-EA3C-1029-176AF19E6729">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CZYN_PK" id="00F25B42-0284-577D-17A1-E789B32B2841">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Moduly" directorySegmentName="seg_0" id="17A070FD-DF68-DADA-E0C1-2071BB343135">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_pracownika" id="8204B468-240E-3FCB-4CDF-52F5660E6411">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_zatwierdzenia" id="8667B14F-D9A6-472D-1B4C-6CE33F0BFB0C">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_modulu" id="8CD4F54B-9754-ADB6-29C1-EA0C0992CC84">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa" id="FE2B257B-C597-3E7A-C23E-B179E74EC4CD">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MOD_PRAC_FK_IDX" id="B15508A4-A100-DA12-5E2E-7509904AB3CE">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Moduly" id="4092F9B8-23DF-7A98-B963-5FC245AEF753">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-24 18:23:23 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<objectName>Moduly</objectName>
+<objectUser>A12CE0FD-D021-9EA4-9210-4659AF77096F</objectUser>
+<user>1EFD292E-3ADD-1D07-9380-78D1F4C4EF30</user>
+<referredObjectID>17A070FD-DF68-DADA-E0C1-2071BB343135</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MOD_PRAC_FK" id="D17A0705-8776-0CF3-123C-67B3A7062674">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<deferrable>YES</deferrable>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MOD_PK" id="3C6D7B8F-28A5-BC78-9719-654EB93AC496">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MOD_UK" id="1C4ACB70-FB52-EA5D-6E30-E25F1F7697E6">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

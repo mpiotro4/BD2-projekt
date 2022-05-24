@@ -67,8 +67,8 @@ marcin.piotrowski9.stud@pw.edu.pl
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="234" y="164"/>
-<point x="289" y="164"/>
+<point x="234" y="170"/>
+<point x="289" y="170"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CAA7B7D3-8924-66B6-6618-15F5FD9C6641" otype="FKIndexAssociation" vid_source="5227AF44-76BB-9E3B-FF7E-FBA855C1ACAC" vid_target="D9F4A39B-3936-B7D5-0EBD-69E0A0361A25">

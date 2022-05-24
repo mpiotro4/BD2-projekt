@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Kategorie" directorySegmentName="seg_0" id="C5674FDA-D74A-EA7D-4259-9B6D93C8E384">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Nazwa" id="24EBC0EA-6B23-A435-C63C-14D51EDC7B89">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_kategorii" id="D487D80A-8970-1582-BD12-5AA4F5D4F9BA">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Kategorie" id="9822ADF3-8EBF-9498-70FC-B6E7FB87F61E">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-24 18:23:10 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<objectName>Kategorie</objectName>
+<objectUser>A12CE0FD-D021-9EA4-9210-4659AF77096F</objectUser>
+<user>1EFD292E-3ADD-1D07-9380-78D1F4C4EF30</user>
+<referredObjectID>C5674FDA-D74A-EA7D-4259-9B6D93C8E384</referredObjectID>
+</Synonym>
+</synonyms>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KAT_PK" id="19157872-F36F-158A-1F40-7434CDBA2793">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="KAT_UN" id="F95CCF8B-26B0-3F12-6A30-298A23105F2A">
+<createdBy>mpiot</createdBy>
+<createdTime>2022-05-21 16:45:46 UTC</createdTime>
+<ownerDesignName>BD2A074</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

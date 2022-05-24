@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0522DBD-0CA2-B526-7FD7-2F8E69C01FE8" name="Czynnosci">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Informacje o podjętej czynności oraz o czasie jej wykonania jeśli została zakończona]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Informacje o podjetej czynnosci oraz o czasie jej wykonania jesli została zakonczona]]></commentInRDBMS>
 <generatorID>A378E85D-F36B-88C2-9F82-C001D3272A0D</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <abbreviation>Czyn</abbreviation>
@@ -20,12 +20,14 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Data_rozpoczecia" id="72780246-6B84-12A1-BB6C-B7D05EE9A09C">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Data rozpoczęcia wykonywania czynności]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Data rozpoczecia wykonywania czynnosci]]></commentInRDBMS>
 <generatorID>9E074EC0-37AA-5FFC-5D2B-4588211C556E</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,7 +39,7 @@
 <Column name="ID_modulu" id="BCDF62A2-BF3E-5462-DB6A-3B89BF45BE20">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[ID modułu wobec którego wykonywana jest czynność]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[ID modułu wobec którego wykonywana jest czynnosc]]></commentInRDBMS>
 <generatorID>4FCC6764-6BF6-9603-1B40-80778E4298AC</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,7 +56,7 @@
 <Column name="ID_kategorii" id="330BF53E-7595-0367-9C61-D7BED5AC3BE0">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[ID kategori do której należy czynność]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[ID kategori do ktorej nalezy czynnosc]]></commentInRDBMS>
 <generatorID>66168339-9644-9F75-6629-3B262AFBBF2D</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,7 +73,7 @@
 <Column name="ID_pracownika" id="58D93789-B8FA-9FE4-C270-87BCB3F6C1E2">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[ID pracownika który wykonuje czynność]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[ID pracownika ktory wykonuje czynnosc]]></commentInRDBMS>
 <generatorID>2A624414-0EDF-BFDA-4062-1F7FAD1B7532</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,6 +90,7 @@
 <Column name="ID_czyn_nadrz" id="9E0F2CFD-C6D6-1529-65DD-4EF9765ADCC8">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-21 15:07:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID czynnosci nadrzednej]]></commentInRDBMS>
 <ownerDesignName>BD2A074</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,7 +107,7 @@
 <Column name="Notatka" id="95AA02E6-BACF-FACE-A4D5-DB12C34C4847">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Notatka dotycząca wykonywanej czynności]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Notatka dotyczaca wykonywanej czynnosci]]></commentInRDBMS>
 <generatorID>A62B8BAE-505F-E4D7-19CC-16F7C7DAA51D</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -118,7 +121,7 @@
 <Column name="Data_wykonania" id="7AC9D145-2502-A7DE-54A7-F227972570A5">
 <createdBy>mpiot</createdBy>
 <createdTime>2022-05-20 14:43:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Data zakończenia wykonywania czynnośći]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Data zakonczenia wykonywania czynnosci]]></commentInRDBMS>
 <generatorID>3621542D-E677-8B24-2E9F-B6AA90483B55</generatorID>
 <ownerDesignName>BD2A074</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
